@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:Views="clr-namespace:Ezmobile_Futures.Views"
+            x:Class="Ezmobile_Futures.Views.TabbedView"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            NavigationPage.HasNavigationBar="True">
+  <!--Pages can be added as references or inline-->
+    <Views:HomePage Title="Thị Trường"
+                             IconImageSource="thitruong.png" />
+    <Views:HomePage Title="Quản Lý TK"
+                             IconImageSource="qltk.png" />
+    <Views:DatLenhPage Title="Đặt lệnh"
+                             IconImageSource="auction.png" />
+    <Views:HomePage Title="Hủy/Sửa"
+                             IconImageSource="contract.png" />
+    <Views:HomePage Title="Chuyển Tiền"
+                             IconImageSource="chuyentien.png" />
+</TabbedPage>
